@@ -16,6 +16,11 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   plugins: ["react", "react-hooks", "@typescript-eslint"],
   rules: {
     "react/react-in-jsx-scope": "off",
